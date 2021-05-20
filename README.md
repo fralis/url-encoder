@@ -1,7 +1,7 @@
 
 <br />
 <p align="center">
-  <a href="https://github.com/udede/lis-url-encoder">
+  <a href="https://github.com/fralis/url-encoder">
 <img src="https://i.ibb.co/Gx7p9D8/logo.png" alt="logo" border="0" width="100">
   </a>
 </p>
@@ -28,7 +28,6 @@
    ⇾ [Reset Configuration](#reset)
 5. [**Roadmap**](#roadmap)
 6. [**Contributing**](#contributing) <br/>
-   ⇾ [Building](#building) <br/>
    ⇾ [Testing](#testing) <br/>
 7. [**License**](#license)
 8. [**Contact**](#contact)
@@ -47,10 +46,10 @@ npm install @fralis/url-encoder --save
 ```
 ## Including a script
 
-You can download the minified version at [this link](https://raw.githubusercontent.com/udede/lis-url-encoder/master/dist/lis-url-encoder.min.js) and then include in your html.
+You can download the minified version at [this link](https://raw.githubusercontent.com/fralis/url-encoder/master/versions/url-encoder%40latest.js) and then include in your html.
 
 ```html
-<script type="text/javascript" src="lis-url-encoder.min.js"></script>
+<script type="text/javascript" src="url-encoder.js"></script>
 ```
 
 <a name="usage"></a>
@@ -194,7 +193,7 @@ LisURLEncoder.reset();
 <a name="roadmap"></a>
 # Roadmap
 
-See the [open issues](https://github.com/udede/lis-url-encoder/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/fralis/url-encoder/issues) for a list of proposed features (and known issues).
 
 <a name="contributing"></a>
 # Contributing
@@ -207,13 +206,9 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<a name="building"></a>
-## Building
-Build can be executed with `npm run build` that creates a `.js` file and ite minified version into the `dist` folder using [Babel](https://babeljs.io/).
-
-<a name="building"></a>
+<a name="testing"></a>
 ## Testing
-Tests can be executed with `npm test`. The framework used is [Mocha](https://mochajs.org/).
+Tests can be executed with `npm test`. The library uses [Mocha](https://mochajs.org/).
 
 <a name="license"></a>
 # License
