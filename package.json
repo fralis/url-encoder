@@ -1,6 +1,6 @@
 {
   "name": "@fralis/url-encoder",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "A tool written in JavaScript. It can be used for encoding and decoding a URL.",
   "main": "index.js",
   "scripts": {
