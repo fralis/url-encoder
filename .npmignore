@@ -6,3 +6,4 @@ url-encoder.min.js
 package-lock.json
 node_modules
 assets
+.idea
