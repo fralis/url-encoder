@@ -2,7 +2,7 @@
   "name": "@fralis/url-encoder",
   "version": "1.2.1",
   "description": "A tool written in JavaScript. It can be used for encoding and decoding a URL.",
-  "main": "url-encoder.js",
+  "main": "index.js",
   "scripts": {
     "test": "mocha index.test.js",
     "generate-latest": "minify index.js --out-file url-encoder.min.js --mangle.keepClassName",
