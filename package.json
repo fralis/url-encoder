@@ -1,9 +1,5 @@
 {
   "name": "@fralis/url-encoder",
-  "np": {
-    "yarn": false,
-    "contents": "dist"
-  },
   "version": "1.0.3",
   "description": "A tool written in JavaScript. It can be used for encoding and decoding a URL.",
   "main": "url-encoder.js",
@@ -12,7 +8,7 @@
     "generate-latest": "minify index.js --out-file url-encoder.min.js --mangle.keepClassName",
     "babel": "babel url-encoder.js --out-file index.js",
     "build": "npm run babel && npm test && npm run generate-latest",
-    "publish": "npm run build np"
+    "publish": "npm run build && np"
   },
   "keywords": [
     "url",
@@ -36,7 +32,6 @@
   },
   "homepage": "https://github.com/fralis/url-encoder#readme",
   "devDependencies": {
-    "np": "*",
     "@babel/cli": "^7.14.3",
     "@babel/core": "^7.14.3",
     "@babel/plugin-transform-arrow-functions": "^7.13.0",
