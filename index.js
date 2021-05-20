@@ -1,5 +1,10 @@
 "use strict";
 
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 class LisURLQueryString {
@@ -200,3 +205,5 @@ _defineProperty(LisURLEncoder, "AUTO_QUESTION_MARK", true);
 _defineProperty(LisURLEncoder, "RFC3986", false);
 
 module.exports = LisURLEncoder;
+var _default = LisURLEncoder;
+exports.default = _default;
