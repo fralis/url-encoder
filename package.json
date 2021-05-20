@@ -8,7 +8,7 @@
     "generate-latest": "minify index.js --out-file url-encoder.min.js --mangle.keepClassName",
     "babel": "babel url-encoder.js --out-file index.js",
     "build": "npm run babel && npm test && npm run generate-latest",
-    "publish": "npm run build && np"
+    "release": "npm run build && np"
   },
   "keywords": [
     "url",
