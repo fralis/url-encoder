@@ -31,12 +31,12 @@
     "url": "git+https://github.com/udede/lis-url-encoder.git"
   },
   "bugs": {
-    "url": "https://github.com/udede/lis-url-encoder/issues"
+    "url": "https://github.com/fralis/url-encoder/issues"
   },
   "engines": {
     "node": ">= 8.0.0"
   },
-  "homepage": "https://github.com/udede/lis-url-encoder#readme",
+  "homepage": "https://github.com/fralis/url-encoder#readme",
   "devDependencies": {
     "np": "*",
     "@babel/cli": "^7.14.3",
