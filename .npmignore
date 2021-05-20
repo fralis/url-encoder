@@ -1,0 +1,8 @@
+.gitignore
+babel.config.json
+url-encoder.js
+index.test.js
+url-encoder.min.js
+package-lock.json
+node_modules
+assets
