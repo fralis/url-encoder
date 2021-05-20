@@ -34,28 +34,37 @@
 9. [**References & Acknowledgements**](#acknowledgements)
 
 <a name="prerequisites"></a>
-# 1. Prerequisites
+# Prerequisites
 There are no dependencies. Library is written in pure JavaScript with pure functions.
 
 <a name="installation"></a>
-# 2. Installation
+# Installation
 
 ## Installing via npm
 ```shell
-npm install @fralis/url-encoder --save
+npm install @fralis/url-encoder
+```
+and then import it with:
+```javascript
+const LisURLEncoder = require('@fralis/url-encoder');
+```
+or
+```javascript
+import LisURLEncoder from '@fralis/url-encoder';
 ```
 ## Including a script
 
-You can download the minified version at [this link](https://raw.githubusercontent.com/fralis/url-encoder/master/versions/url-encoder%40latest.js) and then include in your html.
+You can download the minified version at [this link](https://raw.githubusercontent.com/fralis/url-encoder/master/url-encoder.min.js) and then include in your html.
 
 ```html
 <script type="text/javascript" src="url-encoder.js"></script>
 ```
+and then use directly the class `LisURLEncoder`.
 
 <a name="usage"></a>
 # Usage
 
-Including the file you include the class `LisURLEncoder` that's composed only by two static methods: `encode` and `decode`.
+Importing the library you have the possibility to use the class `LisURLEncoder` that's composed only by two static methods: `encode` and `decode`.
 
 <a name="encode"></a>
 ## Encode a URL 🠖 `encode(baseURL, queryArray)`
