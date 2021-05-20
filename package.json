@@ -1,9 +1,5 @@
 {
   "name": "@fralis/url-encoder",
-  "np": {
-    "yarn": false,
-    "contents": "dist"
-  },
   "version": "1.0.0",
   "description": "A tool written in JavaScript. It can be used for encoding and decoding a URL.",
   "main": "src/index.js",
@@ -38,7 +34,6 @@
   },
   "homepage": "https://github.com/fralis/url-encoder#readme",
   "devDependencies": {
-    "np": "*",
     "@babel/cli": "^7.14.3",
     "@babel/core": "^7.14.3",
     "@babel/plugin-transform-arrow-functions": "^7.13.0",
