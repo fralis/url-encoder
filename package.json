@@ -24,7 +24,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/udede/lis-url-encoder.git"
+    "url": "git+https://github.com/fralis/url-encoder.git"
   },
   "bugs": {
     "url": "https://github.com/fralis/url-encoder/issues"
