@@ -61,7 +61,7 @@ import LisURLEncoder from '@fralis/url-encoder';
 ```
 ## Including a script
 
-You can download the minified version at [this link](https://raw.githubusercontent.com/fralis/url-encoder/master/url-encoder.min.js) and then include in your html.
+You can download the minified version at [this link](https://raw.githubusercontent.com/fralis/url-encoder/master/url-encoder.standalone.min.js) and then include in your html.
 
 ```html
 <script type="text/javascript" src="url-encoder.js"></script>
