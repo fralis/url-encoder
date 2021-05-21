@@ -1,4 +1,4 @@
-![GitHub file size in bytes](https://img.shields.io/github/size/fralis/url-encoder/url-encoder.min.js?color=%2306d6a0&style=for-the-badge)
+![GitHub file size in bytes](https://img.shields.io/github/size/fralis/url-encoder/index.js?color=%2306d6a0&style=for-the-badge)
 [![GitHub issues](https://img.shields.io/github/issues/fralis/url-encoder?color=%2306d6a0&style=for-the-badge)](https://github.com/fralis/url-encoder/issues)
 [![GitHub license](https://img.shields.io/github/license/fralis/url-encoder?color=%23ffad33&style=for-the-badge)](https://github.com/fralis/url-encoder/blob/master/LICENSE.md)
 [![npm (scoped)](https://img.shields.io/npm/v/@fralis/url-encoder?color=%23ff4c4c&style=for-the-badge)](https://www.npmjs.com/package/@fralis/url-encoder)
