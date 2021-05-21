@@ -5,9 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha index.test.js",
-    "generate-latest": "minify index.js --out-file url-encoder.min.js --mangle.keepClassName",
-    "babel": "babel url-encoder.js --out-file index.js",
-    "build": "npm run babel && npm test && npm run generate-latest",
+    "generate-standalone": "babel --plugins remove-import-export url-encoder.js --out-file url-encoder.standalone.js",
+    "generate-standalone-min": "minify url-encoder.standalone.js --out-file url-encoder.standalone.min.js --mangle.keepClassName",
+    "generate-min": "minify index.main.js --out-file index.js --mangle.keepClassName",
+    "babel": "babel url-encoder.js --out-file index.main.js && npm run generate-min",
+    "build": "npm run babel && npm test && npm run generate-standalone && npm run generate-standalone-min ",
     "release": "npm run build && np"
   },
   "keywords": [
@@ -32,15 +34,16 @@
   },
   "homepage": "https://github.com/fralis/url-encoder#readme",
   "devDependencies": {
-    "np": "*",
     "@babel/cli": "^7.14.3",
     "@babel/core": "^7.14.3",
     "@babel/plugin-transform-arrow-functions": "^7.13.0",
     "@babel/preset-env": "^7.14.2",
     "babel-minify": "^0.5.1",
+    "babel-plugin-remove-import-export": "^1.1.1",
     "copyfiles": "^2.4.1",
     "cross-var": "^1.1.0",
     "mocha": "^8.4.0",
+    "np": "*",
     "prettier": "2.3.0",
     "request": "^2.88.2"
   },
