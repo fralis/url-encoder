@@ -32,7 +32,8 @@
    ⇾ [Auto Question Mark](#autoquestionmark) <br/>
    ⇾ [x-www-form-urlencoded](#xformurlencoded) <br/>
    ⇾ [RFC 3986 Compatibility](#RFC3986) <br/>
-   ⇾ [Reset Configuration](#reset)
+   ⇾ [Reset Configuration](#reset) <br/>
+   ⇾ [Debugging](#debugging)
 5. [**Roadmap**](#roadmap)
 6. [**Contributing**](#contributing) <br/>
    ⇾ [Testing](#testing) <br/>
@@ -206,6 +207,14 @@ You can reset the configuration to default values using the following function:
 ```javascript
 LisURLEncoder.reset();
 ```
+
+<a name="debugging"></a>
+## Debugging 🠖 `DEBUGGING`
+You can display errors specs as `console.warn()` by enabling the debug mode:
+```javascript
+LisURLEncoder.DEBUGGING = true;
+```
+
 <a name="roadmap"></a>
 # Roadmap
 
