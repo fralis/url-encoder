@@ -2,7 +2,9 @@
 babel.config.json
 url-encoder.js
 index.test.js
-url-encoder.min.js
+index.main.js
+url-encoder.standalone.js
+url-encoder.standalone.min.js
 package-lock.json
 node_modules
 assets
