@@ -1,8 +1,12 @@
-
-<br />
+![GitHub file size in bytes](https://img.shields.io/github/size/fralis/url-encoder/url-encoder.min.js?color=%2306d6a0&style=for-the-badge)
+[![GitHub issues](https://img.shields.io/github/issues/fralis/url-encoder?color=%2306d6a0&style=for-the-badge)](https://github.com/fralis/url-encoder/issues)
+[![GitHub license](https://img.shields.io/github/license/fralis/url-encoder?color=%23ffad33&style=for-the-badge)](https://github.com/fralis/url-encoder/blob/master/LICENSE.md)
+[![npm (scoped)](https://img.shields.io/npm/v/@fralis/url-encoder?color=%23ff4c4c&style=for-the-badge)](https://www.npmjs.com/package/@fralis/url-encoder)
+<br/>
+<br/>
 <p align="center">
   <a href="https://github.com/fralis/url-encoder">
-<img src="https://i.ibb.co/Gx7p9D8/logo.png" alt="logo" border="0" width="100">
+<img src="https://i.ibb.co/Gx7p9D8/logo.png" alt="logo" border="0" width="120">
   </a>
 </p>
 <h3 align="center">URL Encoder / Decoder</h3>
@@ -10,6 +14,9 @@
   <p align="center">
     A lightweight and complete tool written in JavaScript for URL Encoding and Decoding
   </p>
+
+<br/>
+<br/>
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
