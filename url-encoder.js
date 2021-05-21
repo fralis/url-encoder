@@ -180,5 +180,7 @@ class LisURLEncoder {
     LisURLEncoder.PARAM_KEY_REGEX = "^[a-zA-Z0-9]*$";
   }
 }
-module.exports = LisURLEncoder;
+if (typeof module !== 'undefined') {
+  module.exports = LisURLEncoder;
+}
 export default LisURLEncoder;
